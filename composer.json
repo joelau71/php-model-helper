@@ -1,0 +1,23 @@
+{
+  "name": "myfirstpackage/one",
+  "description": "test composer package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joe Lau",
+      "email": "joe.laucw71@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "fakerphp/faker": "1.20.x-dev",
+    "intervention/image": "^2.4@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyFirstPackage\\": "src/"
+    }
+  }
+}
